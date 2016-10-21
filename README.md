@@ -29,3 +29,10 @@ npm i webdriverio -D
 mkdir -p test/specs
 touch ./test/specs/demo.js
 ```
+**execute**
+
+```
+npm test
+npm run demo1
+npm run demo2
+```

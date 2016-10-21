@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "demo1": "wdio wdio.conf.js --spec ./test/specs/demo.js",
+    "demo2": "wdio wdio.conf.js --spec ./test/specs/demo2.js"
   },
   "repository": {
     "type": "git",
