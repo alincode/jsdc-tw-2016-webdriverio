@@ -22,3 +22,10 @@ npm i webdriverio -D
 ```
 "test": "wdio wdio.conf.js"
 ```
+
+**first test script**
+
+```
+mkdir -p test/specs
+touch ./test/specs/demo.js
+```
