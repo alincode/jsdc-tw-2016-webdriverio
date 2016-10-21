@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/alincode/jsdc-tw-2016-webdriverio#readme",
   "devDependencies": {
+    "wdio-mocha-framework": "^0.4.3",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.3",
     "webdriverio": "^4.2.16"
   }
 }
