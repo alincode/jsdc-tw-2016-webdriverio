@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alincode/jsdc-tw-2016-webdriverio/issues"
   },
-  "homepage": "https://github.com/alincode/jsdc-tw-2016-webdriverio#readme"
+  "homepage": "https://github.com/alincode/jsdc-tw-2016-webdriverio#readme",
+  "devDependencies": {
+    "webdriverio": "^4.2.16"
+  }
 }
