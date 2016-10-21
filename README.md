@@ -14,3 +14,11 @@ npm i webdriverio -D
 ```
 ./node_modules/webdriverio/bin/wdio
 ```
+
+**setting up npm test**
+
+`vi package.json`
+
+```
+"test": "wdio wdio.conf.js"
+```
