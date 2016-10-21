@@ -1,8 +1,10 @@
 {
   "name": "jsdc-tw-2016-webdriverio",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSDC.tw 2016 conference webdriverio demo",
   "main": "index.js",
+  "homepage": "http://alincode.github.io/blog",
+  "author": "alincode <alincode@gmail.com>",
   "scripts": {
     "test": "wdio wdio.conf.js",
     "demo1": "wdio wdio.conf.js --spec ./test/specs/demo.js",
@@ -12,7 +14,7 @@
     "type": "git",
     "url": "git+https://alincode@github.com/alincode/jsdc-tw-2016-webdriverio.git"
   },
-  "keywords": [],
+  "keywords": ["webdriverio", "jsdc", "e2e test"],
   "author": "",
   "license": "ISC",
   "bugs": {
