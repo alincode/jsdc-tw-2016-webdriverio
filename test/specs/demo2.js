@@ -11,8 +11,8 @@ describe('demo 2', function() {
     browser.element('[name=email]').setValue('demo@keystonejs.com');
     browser.element('[name=password]').setValue('1111');
     browser.click('button[type=submit]');
-    browser.waitForExist('.Alert--danger');
-    const message = browser.getText('.Alert--danger');
+    browser.waitForExist('[data-alert-type=danger]');
+    const message = browser.getText('[data-alert-type=danger]');
     assert.equal(message,
       'The email and password you entered are not valid.');
   });
@@ -27,7 +27,7 @@ describe('demo 2', function() {
 
   it('logout', function() {
     browser.click('[href="/keystone/signout"]');
-    browser.waitForExist('.Alert--info');
+    browser.waitForExist('[data-alert-type=info]');
   });
 
 });
