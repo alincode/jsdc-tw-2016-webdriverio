@@ -14,6 +14,7 @@ describe('demo 1', function() {
 
 	it('click get started button', function() {
 		browser.click('.btn-primary');
+		browser.waitForExist('.gs-guide__title-label');
 		assert.equal(browser.getText('h1'), 'Get Started');
 	});
 
