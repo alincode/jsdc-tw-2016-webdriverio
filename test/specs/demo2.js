@@ -28,6 +28,8 @@ describe('demo 2', function() {
   it('logout', function() {
     browser.click('[href="/keystone/signout"]');
     browser.waitForExist('[data-alert-type=info]');
+    const message = browser.getText('[data-alert-type=info]');
+    assert.equal(message, 'You have been signed out.');
   });
 
 });
